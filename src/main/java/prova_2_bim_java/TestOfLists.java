@@ -13,6 +13,7 @@ public class TestOfLists {
 		 * este método para mais nada além de fazer as chamadas para os outros métodos.
 		 */
 	}
+	
 	/**
 	* 1)
 	* (enUS) The test1 method receive a list of Strings as parameter and should return a new
@@ -28,11 +29,16 @@ public class TestOfLists {
 	* Note: Do not change the method signature by adding parameters, changing the method visibility
 	* (public|private|protected) and keep the return inside the expected type.
 	*
+	* (enUS) Valid scenarios| (ptBR) Cenários válidos:
+	* input = ["Daniel", "Juliana", "Alice", "Daniel", "Davi"]
+	* output = ["Daniel", "Juliana", "Alice", "Davi"]
+	*
 	* @param: List<String> list
 	* @return: List<String> newList
 	*/
 	public List<String> test1(List<String> list) {
 		List<String> newList = new ArrayList<String>();
+		//TODO: (enUS) Implement-me. (ptBR) Implemente-me.
 		return newList;
 	}
 	
@@ -53,8 +59,25 @@ public class TestOfLists {
 	* 
 	* Note: Do not change the method signature by adding parameters, changing the method visibility
 	* (public|private|protected) and keep the return inside the expected type.
+	*
+	* (enUS) Valid scenarios| (ptBR) Cenários válidos:
+	* input = "Daniel", []
+	* output = ["Daniel"]
+	* --
+	* input = "Juliana", ["Daniel"]
+	* output = ["Daniel", "Juliana"]
+	* --
+	* input = "Alice", ["Daniel", "Juliana", "Davi"]
+	* output = ["Daniel", "Juliana", "Davi", "Alice"]
+	* --
+	* input = "Alice", ["Daniel", "Juliana", "Davi", "Alice"]
+	* output = ["Daniel", "Juliana", "Davi", "Alice"]
+	*
+	* @param: String value, List<String> list
+	* @return: List<String> newList
 	*/
 	public List<String> test2(String value, List<String> list) {
+		//TODO: (enUS) Implement-me. (ptBR) Implemente-me.
 		return list;
 	}
 
