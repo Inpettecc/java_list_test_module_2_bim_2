@@ -38,7 +38,13 @@ public class TestOfLists {
 	*/
 	public List<String> test1(List<String> list) {
 		List<String> newList = new ArrayList<String>();
-		//TODO: (enUS) Implement-me. (ptBR) Implemente-me.
+		
+		for (String item : list) {
+			if(!newList.contains(item)) {
+				newList.add(item);
+			}
+		}
+		
 		return newList;
 	}
 	
@@ -77,7 +83,11 @@ public class TestOfLists {
 	* @return: List<String> newList
 	*/
 	public List<String> test2(String value, List<String> list) {
-		//TODO: (enUS) Implement-me. (ptBR) Implemente-me.
+
+		if(!list.contains(value)) {
+			list.add(value);
+		}
+		
 		return list;
 	}
 
